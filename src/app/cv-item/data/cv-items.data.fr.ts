@@ -4,11 +4,12 @@ import { CvItem } from '../cv-item';
 export const GENERAL = {
   name: 'Papa Djadji Gueye',
   position: 'Software Engineer',
-  description: `Sebastian started his career in IT as a QA Engineer during his studies of Computer Science at TU Berlin. After completing his master's thesis, Sebastian became a professional software engineer at Mister Spex doing backend as well as frontend development. Unhappy with the segregation between Operations and Development teams, he decided to transfer into Ops full time to get more insights. Having seen both sides of the wall of confusion, Sebastian became a strong advocate for DevOps principles and shared responsibility. He talked at code.talks and DevOpsCon about the topics DevOps, collaboration, feedback culture, and responsibilities.
+  description: `Ingénieur en informatique, mon parcours Scientifique et Technologique me permet de  mettre à la disposition de mes employeurs un esprit rigoureux, capable d'analyser des problèmes complexes.Je suis un 
+passionné d'innovation technologique, des projets qui incluent des technologies modernes et progressives dans un environnement de travail collaboratif.
+  
+Apprendre et essayer de nouvelles choses font partie de ma motivation. De nouveaux rôles sont intéressants si je peux accompagner le logiciel de bout en bout, de la planification, la mise en œuvre, le déploiement à la surveillance. 
 
-Sebastian am looking for new opportunities which include modern, progressive technologies in a collaborative working environment. Learning new things and trying out new stuff are part of his motivation. New roles are of interest if he can accompany the software end to end - from planning, implementation, deployment towards monitoring. Amplified feedback loops and a culture of continuous learning and experimentation define a proper working environment for him. Job offers outside of Berlin are not relevant to him.
-
-This website is designed to be a simple, self-hosted online-CV, based on Angular. To find out more about the project, please click on the AngularCV logo in the bottom right corner.`,
+Des boucles de rétroaction amplifiées et une culture d'apprentissage continu et d'expérimentation définissent pour moi un environnement de travail approprié.`,
 };
 // tslint:enable:max-line-length
 
