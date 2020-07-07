@@ -15,146 +15,73 @@ Des boucles de rétroaction amplifiées et une culture d'apprentissage continu e
 
 export const CVITEMS: CvItem[] = [
   {
-    title: 'Netlight Consulting GmbH',
-    subtitle: 'Senior Consultant',
-    begin: '2019-01',
+    title: 'TeamXGroup',
+    subtitle: 'Software Engineer/ Project Manager',
+    begin: '2018-10',
     end: '',
-    description: 'Netlight is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, ' +
-      'create valuable results for our clients. To continue to grow locally and internationally, we are looking for motivated team ' +
-      'players & people with drive to join the Netlight team of inspiring, knowledgeable and emphatic talents. Currently we have offices ' +
-      'in Stockholm, Oslo, Munich, Helsinki, Berlin, Hamburg, Copenhagen, Zurich, and Frankfurt. We are rapidly expanding on the European market.',
-    tags: ['Java', 'SpringBoot', 'React', 'Kafka', 'MongoDB', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Docker', 'Jira', 'Bamboo',
-      'Scrum', 'AWS', 'Confluence', 'TeamCity', 'Jenkins', 'BitBucket', 'bash'],
-    link: 'https://www.netlight.com',
-    thumbnail: 'Netlight_Consulting_logo.svg',
+    description: 'TeamX Group est un "Start-up studio" qui a pour vocation de créer et développer des start-up sur la base d\'idées générées en interne,'+ 
+      'mais également à accompagner des entrepreneurs dans la concrétisation de leurs projets à travers un apport tech.',
+    tags: ['Java','Angular','Kotlin', 'React', 'MongoDB', 'Nginx','Kubernetes', 'Git', 'Docker', 'Jira','Braintree',
+      'MongoDB', 'Node.js','AWS', 'Jenkins','RabbitMQ', 'BitBucket', 'Android'],
+    link: 'https://teamxgroup.com/',
+    thumbnail: 'teamx.png',
   },
   {
-    title: 'Mister Spex GmbH',
-    subtitle: 'Professional Software Engineer',
-    begin: '2015-06',
-    end: '2018-12',
-    description: 'Implementing features for the e-Commerce platform Intershop in order to customize it. ' +
-      'Developing a separated API as microservice in a DevOps way, which is responsible for price calculation and ' +
-      'feature configuration of prescription glasses. Later switched to the operations team. ' +
-      'Maintaining and operating the platform running the e-commerce shop. ' +
-      'Automating processes and enabling the development teams to work. ' +
-      'Planned and executed the migration of several services to the cloud, including the main webshop application.',
+    title: 'Volkeno',
+    subtitle: 'Développeur web et mobile',
+    begin: '2017-07',
+    end: '2017-07',
+    description: 'Volkeno est une entreprise numérique et une startup studio basée à Dakar au Sénégal. '+
+      'Elle a été créée en 2015 et a pour vocation de contribuer à la révolution numérique en cours dans '+
+      'le but de créer mais aussi d’accompagner des jeunes porteurs de projet à créer des produits innovants '+
+      'à forte valeur ajoutée.',
     tags: ['Java', 'Intershop', 'Python', 'Ansible', 'Git', 'KanBan', 'PyCharm', 'Apache HTTPD', 'AWS', 'Docker', 'Jira', 'Bamboo', 'TDD',
       'JavaScript', 'eclipse', 'Scrum', 'Subversion', 'Scala', 'Testrail', 'trac', 'Confluence', 'bash', 'Kubernetes', 'Oracle PL/SQL'],
-    link: 'https://www.misterspex.com',
-    thumbnail: 'msx-logo.png',
-  },
-  {
-    title: 'Mister Spex GmbH',
-    subtitle: 'Working student Product Management / Quality Assurance',
-    begin: '2012-10',
-    end: '2015-05',
-    description: 'Ensuring the quality and functionality of the web shop, ERP software and their interfaces. ' +
-      'Planning and conduct releases.',
-    tags: ['Selenium', 'Scrum', 'Quality Assurance', 'Release Management', 'Testrail', 'Subversion', 'trac', 'Microsoft Dynamics NAV'],
-    link: 'https://www.misterspex.com',
-    thumbnail: 'msx-logo.png',
-  },
-  {
-    title: 'Müllers Fanshop',
-    subtitle: 'Merchandising salesman at O2World Berlin',
-    begin: '2010-08',
-    end: '2012-09',
-    description: 'Selling merchandising for sport events and concerts. Responsibility over one of the sale points.',
-    link: '',
-    thumbnail: 'muellers_fanshop_logo_001.jpg',
-  },
-  {
-    title: 'MBU Merchandising und Sportreisen GmbH & Co. KG',
-    subtitle: 'Merchandising salesman at O2World Berlin',
-    begin: '2008-09',
-    end: '2010-07',
-    description: 'Selling merchandising for sport events and concerts. Responsibility over one of the sale points.',
-    link: '',
-    thumbnail: 'mbu.png',
+    link: 'https://www.volkeno.sn/',
+    thumbnail: 'volkeno.png',
   },
 ];
 
 export const CERTIFICATES: CvItem[] = [
   {
-    title: 'AWS Cloud Practitioner',
-    subtitle: 'Amazon Web Services (AWS)',
+    title: 'Developpeur web et Mobile',
+    subtitle: 'Volkeno',
     begin: '',
-    end: '2018-11-26',
+    end: '2017-10-24',
     description: '',
-    link: 'https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2018-11-26&ci=AWS00520066',
-    thumbnail: 'AWS_certified_cloud_practitioner.png',
-    attachment: 'AWS_Certified_Cloud_Practitioner_certificate.pdf',
-  },
-  {
-    title: 'Intershop Development',
-    subtitle: 'Intershop Communications AG',
-    begin: '',
-    end: '2015-04',
-    description: 'Overview (IS7-100), Intershop Frontend Development (IS7-114), Intershop Backend Programming (IS7-118)',
-    link: 'http://www.intershop.de/',
-    thumbnail: 'intershop.svg',
-    attachment: 'ISH_Development_Training_2015.pdf',
-  },
-  {
-    title: 'Git version control basics',
-    subtitle: 'Mister Spex GmbH',
-    begin: '',
-    end: '2014-05-12',
-    description: '',
-    thumbnail: 'Git-Logo-2Color.png',
-    attachment: '',
-  },
-  {
-    title: 'ITIL v3 Foundation Certificate',
-    subtitle: 'TÜV SÜD Akademie',
-    begin: '',
-    end: '2012-07-02',
-    description: '',
-    thumbnail: 'itil_foundation.png',
-    attachment: 'ITIL-Zertifikat_2012.pdf',
-  },
-  {
-    title: 'Test of English as foreign language (TOEFL) - ITP',
-    subtitle: 'LTS Language & Testing Service',
-    begin: '',
-    end: '2011-08-31',
-    description: '',
-    thumbnail: 'ETS_TOEFL_ITP.png',
-    attachment: 'LTS_TOEFL ITP-Zertifikat_2011.pdf',
+    link: '',
+    thumbnail: 'volkeno.png',
+    attachment: 'Certificat_dev_web_mobiile.pdf',
   },
 ];
 
 export const EDUCATION: CvItem[] = [
   {
-    title: 'Technische Universität Berlin',
-    subtitle: 'Master of Science | Computer Science',
-    begin: '2011-10',
-    end: '2015-04',
+    title: 'Institut Supérieur Informatique',
+    subtitle: 'Ingénieur Génie Logiciel',
+    begin: '2016-10',
+    end: '2018-04',
     description: '',
-    tags: ['Scrum', 'Subversion', 'Git', 'Java', 'Scala', 'eclipse', 'Lua', 'Maven'],
-    link: 'http://www.tu-berlin.de',
-    thumbnail: 'TU-Berlin-Logo.png',
+    tags: ['PHP', 'C', 'Git', 'Java', 'Sql', 'eclipse','C++', 'Maven'],
+    link: 'http://www.groupeisi.com/',
+    thumbnail: 'isi.jpg',
   },
   {
-    title: 'Technische Universität Berlin',
-    subtitle: 'Bachelor of Science | Computer Science',
-    begin: '2008-10',
-    end: '2011-12',
+    title: 'Université Gaston Berger de Saint-Louis',
+    subtitle: 'Mathématique Physique et Informatique',
+    begin: '2009-10',
+    end: '2012-07',
     description: '',
-    tags: ['Scrum', 'Subversion', 'Java', 'C', 'Assembler', 'eclipse', 'Opal', 'ant'],
+    tags: ['C',  'Java', 'C++', 'Assembler', 'eclipse'],
     link: 'http://www.tu-berlin.de',
-    thumbnail: 'TU-Berlin-Logo.png',
+    thumbnail: 'berger.png',
   },
 ];
 
 export const LANGUAGES = [
   // RATE YOURSELF  =>  100% = NATIVE;  80-99% = FLUENT;  60-79% = ADVANCED;  40-59% = INTERMEDIATE;  20-39% = ELEMENTARY;  0-19% = BEGINNER
-  { title: 'German | Deutsch', level: '100' },
-  { title: 'English', level: '80' },
-  { title: 'Italian | Italiano', level: '70' },
-  { title: 'French | Français', level: '30' },
-  { title: 'Swedish | Svenska', level: '15' },
+  { title: 'French | Français', level: '100' },
+  { title: 'English | Anglais', level: '80' },
 ];
 
 export const PROJECTS: CvItem[] = [
@@ -385,83 +312,49 @@ export const CONTACT = {
 
 export const INTERESTS = [
   {
-    title: 'Cycling',
+    title: 'Vélo',
     icon: 'directions_bike',
   },
   {
-    title: 'GeoCaching',
-    icon: 'not_listed_location',
+    title: 'Voyager',
+    icon: 'card_travel',
   },
   {
-    title: 'Open Source Software',
+    title: 'Logiciels open source',
     icon: 'code',
   },
   {
-    title: 'Reading',
-    icon: 'icon-book',
-  },
-  {
-    title: 'Rowing',
-    icon: 'rowing',
-  },
-  {
-    title: 'Photography',
-    icon: 'camera_alt',
-  },
-  {
-    title: 'Volunteering in sports',
-    icon: 'favorite',
+    title: 'Football',
+    icon: 'sports_soccer',
   },
 ];
 
 export const PUBLICATIONS: CvItem[] = [
   {
-    title: 'How to Touch the Cloud',
-    subtitle: 'Article published on Medium / MakeItNew.io',
+    title: 'Toubamajalis, une nouvelle application dédiée à la communauté Mouride',
+    subtitle: 'Article publié sur Socialnetlink.org',
     begin: '',
-    end: '2019-10-03',
-    description: 'Different Possibilities on How to Interact with AWS',
-    tags: ['AWS', 'Python', 'Ansible', 'Terraform', 'S3', 'CloudFormation', 'SDK', 'CLI'],
-    link: 'https://makeitnew.io/how-to-touch-the-cloud-d08bcf14debe',
-    thumbnail: 'Medium_MakeItNew.png',
+    end: '2016-07-27',
+    description: '',
+    tags: ['Ionic', 'Angular','Cordova','Phonegap'],
+    link: 'https://www.socialnetlink.org/2016/07/toubamajalis-une-nouvelle-application-dediee-a-la-communaute-mouride/',
+    thumbnail: 'social.png',
   },
   {
-    title: 'The Speaker at the End of the Universe',
-    subtitle: 'Article published on Medium',
+    title: 'Jeulsima : Une nouvelle application pour réserver un taxi au Sénégal',
+    subtitle: 'Article publié sur Socialnetlink.org',
     begin: '',
-    end: '2019-05-27',
-    description: 'How to Give a Talk at a Tech Conference',
-    tags: ['conference', 'speaker', 'public speaking'],
-    link: 'https://medium.com/@stegschreck/the-speaker-at-the-end-of-the-universe-6fb8565587b6',
-    thumbnail: 'medium.png',
-  },
-  {
-    title: 'The Hitchhiker’s Guide to a Tech Conference',
-    subtitle: 'Article published on Medium',
-    begin: '',
-    end: '2019-05-20',
-    description: 'A little How-To for Engineers how to visit a Tech Conference',
-    tags: ['conference', 'visitor', 'attendee'],
-    link: 'https://medium.com/@stegschreck/the-hitchhikers-guide-to-a-tech-conference-983c29b1e9ef',
-    thumbnail: 'medium.png',
-  },
-  {
-    title: 'Tear Down This Wall! - Overcoming Collaboration Obstacles on Your DevOps Journey',
-    subtitle: 'Article published on Medium / MakeItNew.io',
-    begin: '',
-    end: '2019-04-17',
-    description: 'A summary of our Talk \'Tear Down This Wall!\' given at Code.Talks Commerce Special 2018 in Berlin ' +
-      'and DevOpsCon 2018 in Berlin about how we enable more collaboration in our IT teams at Mister Spex.',
-    tags: ['DevOps', 'culture', 'collaboration', 'communication', 'microservices'],
-    link: 'https://makeitnew.io/tear-down-this-wall-c2211141fdb5',
-    thumbnail: 'Medium_MakeItNew.png',
-    attachment: 'tear-down-this-wall.pdf',
+    end: '2018-09-05',
+    description: 'Une des premières applications de réservation de véhicules au Sénégal en ligne',
+    tags: ['GPS', 'GCP', 'Paypal', 'Android', 'Gmaps','PHP','geolocation'],
+    link: 'https://www.socialnetlink.org/2018/09/jeulsima-une-nouvelle-application-pour-reserver-un-taxi-au-senegal/',
+    thumbnail: 'social.png',
   },
 ];
 
 export const TALKS: CvItem[] = [
   {
-    title: 'Looking at a New-Born Star Through the Telescope: Architecture Review Approach at idealo',
+    title: 'Looking at a New-Born Star hrough the Telescope: Architecture Review Approach at idealo',
     subtitle: '20 min. @ Netlight EdgeX Urknall',
     begin: '',
     end: '2020-06-17',

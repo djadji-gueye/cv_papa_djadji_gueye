@@ -24,8 +24,8 @@ export const CVITEMS: CvItem[] = [
       'in Stockholm, Oslo, Munich, Helsinki, Berlin, Hamburg, Copenhagen, Zurich, and Frankfurt. We are rapidly expanding on the European market.',
     tags: ['Java', 'SpringBoot', 'React', 'Kafka', 'MongoDB', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Docker', 'Jira', 'Bamboo',
       'Scrum', 'AWS', 'Confluence', 'TeamCity', 'Jenkins', 'BitBucket', 'bash'],
-    link: 'https://www.netlight.com',
-    thumbnail: 'Netlight_Consulting_logo.svg',
+    link: 'https://teamxgroup.com/',
+    thumbnail: 'teamx.png',
   },
   {
     title: 'Mister Spex GmbH',
@@ -364,21 +364,21 @@ export const VOLUNTEERING: CvItem[] = [
 ];
 
 export const CONTACT = {
-  city: 'Berlin, Germany',
+  city: 'Dakar, Senegal',
   phone: '',
-  mail: 'sebastian@schreck.berlin',
+  mail: 'sennegueye@gmail.com',
   skype: '', // just the account name
-  linkedin: 'https://www.linkedin.com/in/sebastian-schreck-050739131/', // full url
-  xing: 'https://www.xing.com/profile/Sebastian_Schreck2', // full url
+  linkedin: 'https://www.linkedin.com/in/papa-djadji-gueye-77375778/', // full url
+  xing: '', // full url
   github: 'https://github.com/StegSchreck', // full url
-  stackoverflow: 'https://stackoverflow.com/users/story/6538600', // full url
-  twitter: 'https://twitter.com/StegSchreck', // full url
+  stackoverflow: '', // full url
+  twitter: '', // full url
   facebook: '', // full url
   instagram: '', // full url
   other: [
-    { title: 'Medium', icon: 'icon-medium', link: 'https://medium.com/@stegschreck' },
-    { title: 'GitHub Page', icon: 'icon-github', link: 'https://stegschreck.github.io' },
-    { title: 'GitLab Page', icon: 'icon-gitlab', link: 'https://stegschreck.gitlab.io' },
+    { title: 'Medium', icon: 'icon-medium', link: '' },
+    { title: 'GitHub Page', icon: 'icon-github', link: '' },
+    { title: 'GitLab Page', icon: 'icon-gitlab', link: '' },
   ],
 };
 
@@ -396,20 +396,8 @@ export const INTERESTS = [
     icon: 'code',
   },
   {
-    title: 'Reading',
-    icon: 'icon-book',
-  },
-  {
-    title: 'Rowing',
-    icon: 'rowing',
-  },
-  {
-    title: 'Photography',
-    icon: 'camera_alt',
-  },
-  {
     title: 'Volunteering in sports',
-    icon: 'favorite',
+    icon: 'ballon',
   },
 ];
 
