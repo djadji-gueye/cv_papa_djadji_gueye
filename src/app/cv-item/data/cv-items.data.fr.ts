@@ -86,29 +86,7 @@ export const LANGUAGES = [
 
 export const PROJECTS: CvItem[] = [
   {
-    title: 'RatS',
-    subtitle: 'Script for transfering personal movie ratings from one site to another',
-    begin: '2017-02',
-    end: '',
-    description: 'This Python project offers an easy way of synchronizing personal movie ratings from one site (e.g. IMDB) ' +
-      'to another (e.g. Trakt). The script supports 13 sites currently and is constantly expanding.',
-    tags: ['Python', 'Git', 'Docker', 'Selenium', 'Beautifulsoup', 'JSON', 'CSV'],
-    link: 'https://github.com/StegSchreck/RatS',
-    thumbnail: 'RatS.png',
-  },
-  {
-    title: 'AngularCV',
-    subtitle: 'A simple self-hosted online-CV',
-    begin: '2017-09',
-    end: '',
-    description: 'This project was created for the purpose of having a basic online-CV, which anyone can host by themselves. ' +
-      'This very website is the result of it.',
-    tags: ['Angular', 'MaterialDesign', 'GitHub', 'CSS', 'TypeScript', 'JetBrains WebStorm', 'AWS', 'jsPDF', 'npm'],
-    link: 'https://github.com/StegSchreck/AngularCV',
-    thumbnail: '../AngularCV.svg',
-  },
-  {
-    title: 'UberPage',
+    title: 'Plafeforme de campagne de sondage SMS',
     subtitle: 'A simple self-hosted website as overview on different self-defined links',
     begin: '2019-07',
     end: '',
@@ -118,7 +96,7 @@ export const PROJECTS: CvItem[] = [
     thumbnail: 'UberPage_kompakt.png',
   },
   {
-    title: 'IS24 Price Per Area',
+    title: 'FlyOps',
     subtitle: 'Chrome extension to display the price per m² on ImmoScout',
     begin: '2020-02',
     end: '',
@@ -130,7 +108,7 @@ export const PROJECTS: CvItem[] = [
     thumbnail: 'is24-price-per-area.svg',
   },
   {
-    title: 'Recoding Aviation Hackathon',
+    title: 'Firefly',
     subtitle: 'Hackathon for improving the passenger journey for flights',
     begin: '',
     end: '2017-06',
@@ -140,43 +118,57 @@ export const PROJECTS: CvItem[] = [
       'which awarded their partner prize.',
     tags: ['Angular 2', 'MaterialDesign', 'Git', 'NodeJS', 'ACI ACRIS Seamless Tavel API', 'Express.js', 'MongoDB', 'twilio'],
     link: 'https://github.com/StegSchreck/RecodingAviation',
-    thumbnail: 're-coding-avation-ba.png',
+    thumbnail: 'firefly.png',
   },
   {
-    title: 'OFM Helper',
-    subtitle: 'Support for analysis of data in football management browser game \'OFM\'',
-    begin: '2016-05',
-    end: '2017-05',
-    description: 'OFM is a browser game where you manage a football team. ' +
-      'The \'OFM Helper\' helps the user to analyse the data which emerges from matches, trainings, etc. ' +
-      'We formed a two-man team for developing this project.',
-    tags: ['Python', 'Django', 'Git', 'Selenium', 'Beautifulsoup', 'TDD', 'Docker'],
-    link: 'https://www.ofmhelper.de/',
-    thumbnail: 'OFM_Helper.png',
-  },
-  {
-    title: 'GoOLAP.info',
-    subtitle: 'Fact search engine',
-    begin: '2010',
-    end: '2011',
-    description: 'GoOLAP is a fact search engine, which crawls the web and combines relevant data using natural language processing. ' +
-      'It is a research project at the DIMA department of TU Berlin. ' +
-      'Sebastian was part of the team which was responsible of the project management. ' +
-      'Later he wrote his bachelor thesis about the data persistence layer of the application.',
-    tags: ['Project Managemant', 'Hadoop', 'MySQL', 'Mantis'],
-    link: 'http://goolap.info/',
-    thumbnail: 'TU_DIMA_GoOLAP.png',
-  },
-  {
-    title: 'Global Phenological Monitoring Programm (GPM)',
-    subtitle: 'Web-application for the Humboldt University',
+    title: 'PAYALL',
+    subtitle: 'Service de transfert d\'argent et paiement facture',
     begin: '',
-    end: '2010',
-    description: 'The GPM is a global program for monitoring specific plants and analysing their behavior in the context of ' +
-      'weather data. The web-application was created during a project course at the TU Berlin, which Sebastian took part at.',
-    tags: ['Java', 'JSF', 'JSP', 'Subversion', 'Scrum', 'Trac', 'Spring', 'ant'],
-    link: 'http://gpm.hu-berlin.de/',
-    thumbnail: 'Huberlin-logo.png',
+    end: '2019-02',
+    description: '* Intégration de Paiement facture et transfert d\'argent via USSD. ',
+    tags: ['USSD', 'Android', 'Git', 'NodeJS', 'MongoDB', 'Express.js'],
+    link: 'https://teamxgroup.com/project/payall/',
+    thumbnail: 'payall.png',
+  },
+  {
+    title: 'Transfert d\'argent internantional',
+    subtitle: 'Application de transfert et de recharge des wallets ou des compteurs téléphoniques depuis l\'étranger',
+    begin: '',
+    end: '2018-10',
+    description: '* Recharge de Wallet. ' +
+      '* Recharge de Compteur Téléphonique. ' +
+      '* Paiement de Factures . ' +
+      '* Paiement en Oneclick (Visa, Mastercard, Paypal) ',
+    tags: ['Paypal', 'Material Design', 'Git', 'Android', 'Braintree', 'Stripe', 'Node.js','SendGrid', 'MongoDB'],
+    link: '',
+    thumbnail: 'cauri.jpg',
+  },
+  {
+    title: 'Toubamajalis',
+    subtitle: 'Application Mobile d\'informations sur le mouridisme',
+    begin: '',
+    end: '2016',
+    description: '* Création RESTfull API avec Joomla puis avec wordpress aprés avoir fait la migration ' +  
+      '* Intégration Firebase pour Google Analytic et Adsense ' +
+      '* Utilisation Google Cloud Messaging pour l\'envoi des notifications. ' ,
+    tags: ['Project Managemant', ' Ionic', 'Firebase', 'MySQL', 'Javscript', 'Html', 'CSS', 'Angular','Restful', 'Android'],
+    link: 'https://play.google.com/store/apps/details?id=com.toubamajalis.PDG&hl=fr',
+    thumbnail: 'majalis.png',
+  },
+  {
+    title: 'Jeulsima',
+    subtitle: 'Application Mobile de réservation de véhicules en ligne',
+    begin: '',
+    end: '2018',
+    description: '* Choisir type de véhicule (Taxi, Aibd, privé..) \n  ' +  
+                 '* Choix de la  destination ' +
+                 '* Recherche véhicules disponibles  ' +
+                 '* Paiement en ligne  ' +
+                 '* Création de deux interfaces (chauffeurs et passagers)  ' +
+                 '* Suivre le déplacement du véhicule choisi à travers l’application(Traker).  ' ,
+    tags: ['Java', 'Retrofit', 'MVP', 'Gmaps','Paypal', 'Android', 'Sql'],
+    link: 'https://play.google.com/store/apps/details?id=com.jeulsima.sn&hl=fr',
+    thumbnail: 'jeulsima.png',
   },
 ];
 
@@ -336,7 +328,7 @@ export const PUBLICATIONS: CvItem[] = [
     begin: '',
     end: '2016-07-27',
     description: '',
-    tags: ['Ionic', 'Angular','Cordova','Phonegap'],
+    tags: ['Ionic', 'Angular','Cordova','Joomla', 'Wordpress','Phonegap'],
     link: 'https://www.socialnetlink.org/2016/07/toubamajalis-une-nouvelle-application-dediee-a-la-communaute-mouride/',
     thumbnail: 'social.png',
   },
