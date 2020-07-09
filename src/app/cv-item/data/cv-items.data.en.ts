@@ -365,8 +365,8 @@ export const VOLUNTEERING: CvItem[] = [
 
 export const CONTACT = {
   city: 'Dakar, Senegal',
-  phone: '',
-  mail: 'sennegueye@gmail.com',
+  phone: '+221777259330',
+  mail: 'papadjadjigueye@gmail.com',
   skype: '', // just the account name
   linkedin: 'https://www.linkedin.com/in/papa-djadji-gueye-77375778/', // full url
   xing: '', // full url

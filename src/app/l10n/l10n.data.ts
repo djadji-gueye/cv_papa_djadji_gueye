@@ -1,6 +1,6 @@
 /* tslint:disable:max-line-length camelcase */
 export const L10N = {
-  'EN': {
+ /* 'EN': {
     language_name: 'English',
     about: {
       title: 'About this website',
@@ -74,17 +74,16 @@ export const L10N = {
     volunteering: {
       title: 'Voluntary Work and Causes',
     },
-  },
+  }, */
   'FR': {
     language_name: 'Français',
     about: {
       title: 'A propos de ce site',
-      subtitle: 'A simple self-hosted online-CV',
-      content: 'This website was created as a GitHub project for the purpose of having a basic online-CV, ' +
-        'which anyone can host by themselves. The main target audience are software developers though. ' +
-        'To build this, basically the following technologies are used:',
-      additional: 'Additionally, the following third-party sources are included:',
-      link_to_github: 'VIEW PROJECT ON GITHUB',
+      subtitle: 'Un projet site web fait à partir d\'Angular 9',
+      content: 'Ce site Web a été créé en tant que projet GitHub dans le but d\'avoir un CV en ligne. ' +
+        'Les technologies suivantes sont utilisées : ',
+      additional: 'En outre, les sources tierces suivantes sont incluses:',
+      link_to_github: '',
     },
     contact: {
       title: 'Coordonnées',
@@ -150,6 +149,7 @@ export const L10N = {
       title: 'Travail bénévole et causes',
     },
   },
+  /*
   'DE': {
     language_name: 'Deutsch',
     about: {
@@ -746,5 +746,5 @@ export const L10N = {
     volunteering: {
       title: '志愿工作及原因',
     },
-  },
+  },  */
 };

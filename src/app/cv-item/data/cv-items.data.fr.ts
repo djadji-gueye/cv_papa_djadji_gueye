@@ -16,7 +16,7 @@ Des boucles de rétroaction amplifiées et une culture d'apprentissage continu e
 export const CVITEMS: CvItem[] = [
   {
     title: 'TeamXGroup',
-    subtitle: 'Software Engineer/ Project Manager',
+    subtitle: 'Software Engineer/ Project Manager à Firefly Media',
     begin: '2018-10',
     end: '',
     description: 'TeamX Group est un "Start-up studio" qui a pour vocation de créer et développer des start-up sur la base d\'idées générées en interne,'+ 
@@ -87,37 +87,40 @@ export const LANGUAGES = [
 export const PROJECTS: CvItem[] = [
   {
     title: 'Plafeforme de campagne de sondage SMS',
-    subtitle: 'A simple self-hosted website as overview on different self-defined links',
-    begin: '2019-07',
+    subtitle: 'Plateforme de gestion et de suivi de campagne de sondage par SMS',
+    begin: '2019-05',
     end: '',
-    description: 'This project aims to offer a simple overview website for different links.',
-    tags: ['React', 'Javascript', 'GitHub', 'CSS', 'JetBrains WebStorm', 'AWS', 'npm'],
-    link: 'https://github.com/StegSchreck/uberpage',
-    thumbnail: 'UberPage_kompakt.png',
+    description: '+ Reception, Afficahe et envoi de SMS '+
+                '+ Création de campagne de sondage (Intégration Cinématique) '+
+                '+ Création mot clé, messages d\'envoi et responses attendue '+
+                '+ Mesure d\'audience de participation via un graphique ',
+    tags: ['Angular 9','Node.js', 'Espress', 'MongoDB','Javascript', 'Git', 'CSS','npm'],
+    link: '',
+    thumbnail: 'sms.png',
   },
   {
     title: 'FlyOps',
-    subtitle: 'Chrome extension to display the price per m² on ImmoScout',
-    begin: '2020-02',
-    end: '',
-    description: 'Show price per m² on the search result pages, the shortlist page, and the expose pages of ImmobilienScout24. ' +
-      'The extension also allows a colored highlighting with customizable thresholds.' +
-      'Not affiliated with ImmobilienScout24 GmbH.',
-    tags: ['Javascript', 'CSS', 'MaterialDesign', 'Chrome'],
-    link: 'https://github.com/StegSchreck/is24-price-per-area',
-    thumbnail: 'is24-price-per-area.svg',
+    subtitle: 'Application mobile de gestion, suivi et contrôle d\'opération terrain ',
+    begin: '2019-03',
+    end: '2019-05',
+    description: '+ Implementation des informations nécessaires à la création, contrôle et suivi des opérations de campagne digitale. ' +
+      '+ Implementation des informations nécessaires à la création, contrôle et suivi des opérations de campagne d\'affichage. ' ,
+    tags: ['Android','Git','Retrofit', 'Jetpack', 'MaterialDesign','MVP', 'MongoDB', 'Node.js'],
+    link: 'https://projects.invisionapp.com/share/BAW6NR2DCQY#/screens/409028837',
+    thumbnail: 'flyops.png',
   },
   {
     title: 'Firefly',
-    subtitle: 'Hackathon for improving the passenger journey for flights',
+    subtitle: 'Plateforme de suivi, contrôle et création de campagne',
     begin: '',
-    end: '2017-06',
-    description: 'Sebastian participated in this hackathon together with three collegues. ' +
-      'They develpoed an idea how the passenger can be relieved from stress and anxiety at an airport. ' +
-      'The idea was named \'Unwait the airport\'. The resulting idea convinced the technical experts of the Munich Airport, ' +
-      'which awarded their partner prize.',
-    tags: ['Angular 2', 'MaterialDesign', 'Git', 'NodeJS', 'ACI ACRIS Seamless Tavel API', 'Express.js', 'MongoDB', 'twilio'],
-    link: 'https://github.com/StegSchreck/RecodingAviation',
+    end: '2019-03',
+    description: '+ Développement de modules de suivi de remontés des données depuis les écrans publicitaires. ' +
+      '+ Module de tracé itinéraires des véhicules, de leurs arrêt et géolocalisation ' +
+      '+ Module d\'algorithme de «Ranking» des véhicules'+
+      '+ Module de création de campagne Digitale et d\'affichage (Print) ' +
+      '+ Mesure d\'audience journalière ou sur une période donnée ',
+    tags: ['Angular 7','MEANJS', 'MaterialDesign', 'Bootstrap','JWT','Git', 'NodeJS', 'Google Cloud Platform', 'Docker','AWS', 'Express.js', 'MongoDB', 'twilio'],
+    link: '',
     thumbnail: 'firefly.png',
   },
   {
@@ -284,21 +287,18 @@ export const VOLUNTEERING: CvItem[] = [
 ];
 
 export const CONTACT = {
-  city: 'Berlin, Germany',
-  phone: '',
-  mail: 'sebastian@schreck.berlin',
+  city: 'Dakar, Senegal',
+  phone: '+221777259330',
+  mail: 'papadjadjigueye@gmail.com',
   skype: '', // just the account name
-  linkedin: 'https://www.linkedin.com/in/sebastian-schreck-050739131/', // full url
-  xing: 'https://www.xing.com/profile/Sebastian_Schreck2', // full url
-  github: 'https://github.com/StegSchreck', // full url
-  stackoverflow: 'https://stackoverflow.com/users/story/6538600', // full url
-  twitter: 'https://twitter.com/StegSchreck', // full url
+  linkedin: 'https://www.linkedin.com/in/papa-djadji-gueye-77375778/', // full url
+  xing: '', // full url
+  github: 'https://github.com/djadji-gueye', // full url
+  stackoverflow: '', // full url
+  twitter: '', // full url
   facebook: '', // full url
   instagram: '', // full url
   other: [
-    { title: 'Medium', icon: 'icon-medium', link: 'https://medium.com/@stegschreck' },
-    { title: 'GitHub Page', icon: 'icon-github', link: 'https://stegschreck.github.io' },
-    { title: 'GitLab Page', icon: 'icon-gitlab', link: 'https://stegschreck.gitlab.io' },
   ],
 };
 
