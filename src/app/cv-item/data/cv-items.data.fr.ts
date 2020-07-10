@@ -86,7 +86,7 @@ export const LANGUAGES = [
 
 export const PROJECTS: CvItem[] = [
   {
-    title: 'Plafeforme de campagne de sondage SMS',
+    title: 'Plateforme de campagne de sondage SMS',
     subtitle: 'Plateforme de gestion et de suivi de campagne de sondage par SMS',
     begin: '2019-05',
     end: '',
